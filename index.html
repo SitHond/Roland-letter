@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Письмо от Роланда</title>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #1e1e1e;
+      --letter-bg: #2b2b2b;
+      --border-color: #444;
+      --text-color: #f5f5f5;
+      --accent-color: #f0c674;
+      --shadow: rgba(255, 255, 255, 0.1);
+    }* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Crimson Text', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.letter {
+  background-color: var(--letter-bg);
+  border: 2px solid var(--border-color);
+  padding: 40px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 0 15px var(--shadow);
+  border-radius: 12px;
+  line-height: 1.7;
+  transition: transform 0.3s ease;
+}
+
+.letter:hover {
+  transform: scale(1.01);
+}
+
+.signature {
+  margin-top: 40px;
+  text-align: right;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.2em;
+  color: var(--accent-color);
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+  .letter {
+    padding: 25px;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .signature {
+    font-size: 0.95em;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="letter">
+    <h1>Письмо от Роланда</h1>
+    <p>Эй, именинник!</p><p>Роланд на связи. Да-да, тот самый. Не спрашивай, как я узнал про твой день рождения — скажем так, источники у меня надёжные (и кое-кто в архивной секции шепнул).</p>
+
+<p>Так вот. Решил всё-таки не быть полным эгоистом и потратить пару минут, чтобы поздравить тебя.</p>
+
+<p>Желаю тебе, чтобы жизнь не была сплошным Гештальтом,
+чтобы каждый новый день не превращался в очередной акт депрессии,
+и чтобы рядом были не только странные библиотекари и аномалии,
+а и нормальные люди... ну, хотя бы иногда.</p>
+
+<p>Пусть твоя история будет насыщенной, как бой с Бином,
+стильной, как выход Кармен,
+и значимой, как каждый выбор, который делает человек, столкнувшийся с бездной —
+или хотя бы с кофе без сахара.</p>
+
+<p>А если станет совсем тяжко — вспомни, даже я выжил. И ты справишься.</p>
+
+<div class="signature">
+  С уважением,<br />
+  <strong>Роланд</strong><br />
+  (Ныне: консультант по эмоциональной устойчивости и хранитель хаоса)
+</div>
+
+  </div>
+</body>
+</html>
